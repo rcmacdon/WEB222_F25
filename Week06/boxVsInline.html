@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- 
+    Title: Week 6 Demo File
+    Author: Clint MacDonald
+    Date: Oct. 6, 2025
+    Purpose: TO further learn HTML and it's specifics 
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Box vs. Inline HTML Elements</title>
+    <style>
+        .important {color: red; font-weight: bold;}
+    </style>
+    <script lang="javascript">
+        function createAlert() {
+            alert("You clicked the box!");
+            document.getElementById("box2").innerText = "Hey stop clicking the boxes!";
+        }
+
+    </script>
+</head>
+<body>
+    
+    <!-- a div tag that changes background color on hover -->
+    <div style="background-color: red;" id="box1" onmouseover="this.style.backgroundColor='blue'" onmouseout="this.style.backgroundColor='red'" onclick="createAlert()">box text in div tag</div>
+
+
+
+    <div style="background-color: red;" id="box2" >box text in div tag</div>
+
+    <span style="background-color: yellow;">inline <span class="important">text in</span> span tag</span>
+
+
+    <p style="background-color: lightgreen;" onclick="createAlert()">Lorem ipsum dolor sit amet <i>consectetur</i> adipisicing elit. Commodi explicabo distinctio rerum! <span style="background-color: lightblue;">Temporibus esse sequi </span> dicta <span class="important">aspernatur modi</span> dolor at earum?Sapiente voluptatum et facilis dolore iure ipsa, fugit quaerat.</p>
+
+<hr> <!-- Empty Element -->
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <div style="color: red;">Aliquam nobis porro ex, cum</div> quasi asperiores atque necessitatibus pariatur tempore sunt provident laboriosam doloremque, quod est debitis. Quisquam earum debitis neque?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span style="color: red;">Natus aliquid veniam voluptatibus</span> enim mollitia adipisci nam perspiciatis voluptates. Magnam dolorem accusamus praesentium ab necessitatibus illum hic doloribus fugit vel dignissimos.</p>
+
+    <!-- br is also an empty element -->
+    <p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Alias corporis nobis recusandae, harum doloribus possimus sit aspernatur. Saepe exercitationem rem nam nostrum <br>tempore eius, enim tenetur blanditiis ab. Veritatis, temporibus.</p>
+
+    <img src="/images/Dwarf.png" width="200" alt="Dwarf from World of Warcraft">
+
+    <img src="https://www.dndbeyond.com/content/skins/waterdeep/images/homepage/mask.png" alt="Dungeons and Dragons Mask" width="200">
+
+    <main>
+        <section>
+            <p>A video about ....</p>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xo3XkW6Brg8?si=xXqZGkL4bpr9luZh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+
+        <section>
+            <video width="320" height="240" controls>
+                <source src="/media/COD.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+        </section>
+
+    
+    </main>
+</body>
+</html>
