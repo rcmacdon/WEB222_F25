@@ -1,0 +1,30 @@
+/*
+comment header!!!!
+
+*/
+
+/* Tag Selector */
+h1 {
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+/* Class Selector */
+.Important {
+    color: purple;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* ID Selector */
+#UniqueID {
+    color: teal;
+    font-style: italic;
+    font-size: 1em;
+}
+
+/* sizing units
+1em = 12pt = 16px = 100%
+%/
+
