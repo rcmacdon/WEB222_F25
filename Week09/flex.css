@@ -1,0 +1,146 @@
+/* Flexbox container 
+Classroom Demo
+
+cce8cc-f6efee-e2b6cf-e396df-e365c1
+*/
+body {
+    background-color: #e2b6cf;
+    font-family: Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#MainContainer {
+    width: 75%;
+    margin: auto auto;
+    /* border: 1px solid #E396DF; */
+    background-color: #f6efee;
+}
+
+header, footer {
+    background-color: #cce8cc;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #e365c1;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    width: 100%;
+}
+
+section {
+    border: 1px black solid;
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+section h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+
+#NewsFeed {
+    background-color: #dddddd;
+    width: 30%;
+}
+
+#NewsFeed img {
+    width: 100%;
+    border: 1px solid #e365c1;
+}
+
+#ContentArea {
+    width: 70%;
+}
+
+#ContentArea ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#ContentArea ul li {
+    margin: 10px;
+    background-color: #cccccc;
+    border: 1px black solid;
+    height: 150px;
+    padding-top: 100px;
+    width: 300px;
+}
+
+#ContentArea ul img {
+    width: 150px;
+}
+
+#BlueJays {
+    background-image: url(images/BlueJays.avif);
+    background-size: 400px;
+    text-align: center;
+}
+#Yankees {
+    background-image: url(images/Yankees.png);
+    background-size: 400px;
+    text-align: center;
+}
+#Dodgers {
+    background-image: url(images/Dodgers.png);
+    background-size: 400px;
+    text-align: center;
+}
+#Mariners {
+    background-image: url(images/Mariners.png);
+    background-size: 400px;
+    text-align: center;
+}
+
+
+
+header img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(images/TechProfBanner.png);
+    background-size: cover;
+    height: 255px;
+    color: white;
+    text-align: left;
+}
+
+header a, header a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ffcc00;
+}
+
+nav {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 10px 0px;
+}
