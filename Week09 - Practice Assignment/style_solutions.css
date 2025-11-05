@@ -1,0 +1,153 @@
+/*    
+
+
+
+
+
+
+        DON'T LOOK AT THIS UNTIL AFTER YOU TRY IT YOURSELF!   
+        
+        
+        my solutions are below!        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Solutions by Clint MacDonald, 
+Web 222, Practice Exercise for Test 3
+*/
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+  background-color: #fdf6f0;
+  color: #4b2e2e;
+}
+
+header {
+  background-color: #ffe4c4;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.logo {
+  width: 800px;
+  margin-top: 0px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+.tagline {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #4b2e2e;
+}
+
+.sidebarImage {
+    width: 180px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+.mainContent {
+    width: 600px;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #4b2e2e;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #a0522d;
+}
+
+.promotion {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  border-top: 1px brown solid;
+}
+
+main {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
+  
+}
