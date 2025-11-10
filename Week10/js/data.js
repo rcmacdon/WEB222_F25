@@ -13,14 +13,15 @@ var quotes = [
 ];
 
 var navLinks = [
-    { name: "Home", url: "index.html" },
-    { name: "About", url: "about.html" },
-    { name: "Services", url: "services.html" },
-    { name: "Contact", url: "contact.html" }
+    { name: "Home", url: "/index.html" },
+    { name: "About", url: "/about.html" },
+    { name: "Services", url: "/services.html" },
+    { name: "Contact", url: "/contact.html" },
+    { name: "OneMore", url: "/test.html"}
 ];
 
 var sectionContent = [
-    {   title: "Dynamically Created Section", 
+    {   title: "First Section", 
         content: "This section was created using JavaScript and DOM manipulation.", 
         link: { name: "Learn More", url: "learnmore.html" }},
     {   
@@ -30,5 +31,10 @@ var sectionContent = [
     {  
         title: "Final Section", 
         content: "This is the final dynamically created section.", 
-        link: { name: "Explore", url: "explore.html" } }
+        link: { name: "Explore", url: "explore.html" } },
+        {
+            title: " Extra Section",
+            content: "This is an extra section added for demonstration purposes.",
+            link: { name: "Discover", url: "discover.html"}
+        }
 ];
